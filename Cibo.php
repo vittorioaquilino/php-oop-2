@@ -13,7 +13,7 @@ class Cibo extends Prodotti {
 
     public function getName()
     {
-        return "Nome prodotto: $this->nome | codice prodotto: $this->codiceProd | descrizione: $this->descrizione | categoria: $this->categoria | prezzo: €$this->prezzo | scadenza: $this->scadenza";
+        return "Nome prodotto: $this->nome <br> codice prodotto: $this->codiceProd <br> descrizione: $this->descrizione <br> categoria: $this->categoria <br> prezzo: €$this->prezzo <br> scadenza: $this->scadenza";
     }
 
 }
